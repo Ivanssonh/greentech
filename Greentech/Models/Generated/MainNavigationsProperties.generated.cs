@@ -25,7 +25,7 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		/// <summary>Main Navigation</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "13.8.0+a486d5d")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		string MainNavigation { get; }
+		global::Umbraco.Cms.Core.Models.Blocks.BlockGridModel MainNavigation { get; }
 	}
 
 	/// <summary>Main Navigations Properties</summary>
@@ -65,11 +65,11 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "13.8.0+a486d5d")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("mainNavigation")]
-		public virtual string MainNavigation => GetMainNavigation(this, _publishedValueFallback);
+		public virtual global::Umbraco.Cms.Core.Models.Blocks.BlockGridModel MainNavigation => GetMainNavigation(this, _publishedValueFallback);
 
 		/// <summary>Static getter for Main Navigation</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "13.8.0+a486d5d")]
 		[return: global::System.Diagnostics.CodeAnalysis.MaybeNull]
-		public static string GetMainNavigation(IMainNavigationsProperties that, IPublishedValueFallback publishedValueFallback) => that.Value<string>(publishedValueFallback, "mainNavigation");
+		public static global::Umbraco.Cms.Core.Models.Blocks.BlockGridModel GetMainNavigation(IMainNavigationsProperties that, IPublishedValueFallback publishedValueFallback) => that.Value<global::Umbraco.Cms.Core.Models.Blocks.BlockGridModel>(publishedValueFallback, "mainNavigation");
 	}
 }
