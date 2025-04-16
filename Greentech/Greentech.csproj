@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Our.Umbraco.Taghelpers" Version="1.2.0" />
     <PackageReference Include="Umbraco.Cms" Version="13.8.0" />
   </ItemGroup>
 
