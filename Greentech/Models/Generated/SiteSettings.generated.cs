@@ -66,7 +66,15 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		public virtual global::Umbraco.Cms.Core.Models.Blocks.BlockGridModel MainNavigation => global::Umbraco.Cms.Web.Common.PublishedModels.MainNavigationsProperties.GetMainNavigation(this, _publishedValueFallback);
 
 		///<summary>
-		/// Site Name: Enter the name of the site. This will appear in the browser title and in the main top left logo for the site.
+		/// Site Logo: Choose a logo for the website. It will show in the top left corner on the nav bar.
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "13.8.0+a486d5d")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("siteLogo")]
+		public virtual global::Umbraco.Cms.Core.Models.MediaWithCrops SiteLogo => global::Umbraco.Cms.Web.Common.PublishedModels.SiteSettingsProperty.GetSiteLogo(this, _publishedValueFallback);
+
+		///<summary>
+		/// Site Name: Choose a name for the site if you dont have a logo. It will show up in the top left corner on the nav bar.
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "13.8.0+a486d5d")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]

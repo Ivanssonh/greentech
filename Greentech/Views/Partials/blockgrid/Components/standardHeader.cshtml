@@ -1,0 +1,15 @@
+﻿@inherits UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<ContentModels.StandardHeader>>
+
+@{
+    var headerImage = Model.Content.Image != null ? Model.Content.Image.Url() : null;
+    var extraClasses = headerImage == null ? "bg-primary" : "";
+    var headerStyle = headerImage != null
+        ? $"background-image: url('{headerImage}'); background-size: cover; background-position: center; min-height: 100vh;"
+        : "min-height: 100vh;";
+}
+
+<header class="masthead text-white text-center d-flex align-items-center @extraClasses" style="@headerStyle">
+    <div class="container d-flex flex-column justify-content-center align-items-center">
+        <h1 class="masthead-heading text-uppercase mb-0">@Model.Content.Title</h1>
+    </div>
+</header>
