@@ -1,3 +1,5 @@
+using Greentech.Configuration;
+
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 builder.CreateUmbracoBuilder()
@@ -6,6 +8,9 @@ builder.CreateUmbracoBuilder()
     .AddDeliveryApi()
     .AddComposers()
     .Build();
+
+builder.Services.Configure<GreentechConfig>(
+    builder.Configuration.GetSection(GreentechConfig.SectionName));
 
 WebApplication app = builder.Build();
 
