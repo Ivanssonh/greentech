@@ -1,15 +1,52 @@
 ﻿@inherits UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<ContentModels.StandardHeader>>
-
 @{
-    var headerImage = Model.Content.Image != null ? Model.Content.Image.Url() : null;
-    var extraClasses = headerImage == null ? "bg-primary" : "";
-    var headerStyle = headerImage != null
-        ? $"background-image: url('{headerImage}'); background-size: cover; background-position: center; min-height: 100vh;"
-        : "min-height: 100vh;";
+    var backgroundImage = Model.Content.Image?.Url();
+    var foregroundImage = Model.Content.ForegroundImage?.Url();
+    var bgColor = Model.Content.BackgroundColor;
+    var hasBgImage = backgroundImage != null;
+
+    var headerStyle = hasBgImage
+        ? $"background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('{backgroundImage}'); background-size: cover; background-position: center; min-height: 100vh;"
+        : $"background-color: #{bgColor}; min-height: 100vh;";
 }
 
-<header class="masthead text-white text-center d-flex align-items-center @extraClasses" style="@headerStyle">
-    <div class="container d-flex flex-column justify-content-center align-items-center">
-        <h1 class="masthead-heading text-uppercase mb-0">@Model.Content.Title</h1>
+
+
+<header class="masthead text-white d-flex align-items-center" style="@headerStyle">
+    <div class="container">
+        <!-- Content Box Container -->
+        <div class="hero-box bg-white bg-opacity-10 backdrop-blur rounded-4 p-4 p-lg-5 border border-white border-opacity-25 shadow-lg">
+            <div class="row align-items-center g-4">
+                <!-- Text Content -->
+                <div class="col-lg-6 text-start">
+                    @if (!string.IsNullOrWhiteSpace(Model.Content.Title))
+                    {
+                        <h1 class="display-3 fw-bold mb-3">@Model.Content.Title</h1>
+                    }
+
+                    @if (!string.IsNullOrWhiteSpace(Model.Content.Subtitle))
+                    {
+                        <div class="hero-subtitle-box bg-dark bg-opacity-50 p-3 rounded-3">
+                            <p class="lead mb-0">@Model.Content.Subtitle</p>
+                        </div>
+                    }
+                </div>
+
+                <!-- Image Content -->
+                <div class="col-lg-6">
+                    @if (!string.IsNullOrWhiteSpace(foregroundImage))
+                    {
+                        <div class="hero-image-frame position-relative">
+                            <img src="@foregroundImage"
+                                 alt="Hero image"
+                                 class="img-fluid rounded-3 shadow"
+                                 style="max-height: 400px; width: 100%; object-fit: cover;" />
+                            <div class="position-absolute top-0 start-0 w-100 h-100 border border-3 border-white border-opacity-50 rounded-3"
+                                 style="pointer-events: none; transform: translate(15px, 15px); z-index: -1;"></div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
     </div>
 </header>
