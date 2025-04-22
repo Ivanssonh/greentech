@@ -1,5 +1,4 @@
 ﻿<style>
-
     button {
         position: relative;
         display: flex;
@@ -22,13 +21,19 @@
 
     img {
         object-fit: cover;
-        height: 80%;
         width: 100%;
+        height: 100%;
         flex-grow: 0;
     }
 
     a {
         pointer-events: none;
+    }
+
+    .image-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
     }
 </style>
 
@@ -36,6 +41,10 @@
     {{mediaItem = (block.data.image[0].mediaKey | mediaItemResolver); ""}}
     <div class="portfolio mx-2">
         <div class="portfolio-item">
+            <!-- Title above the image -->
+            <div class="image-title">
+                {{block.data.title || 'Default Title'}}
+            </div>
             <a href="#">
                 <img ng-if="mediaItem !== null && (mediaItem.mediaLink.indexOf('jpeg') !== -1 || mediaItem.mediaLink.indexOf('jpg') !== -1 || mediaItem.mediaLink.indexOf('png') !== -1 || mediaItem.mediaLink.indexOf('webp') !== -1 || mediaItem.mediaLink.indexOf('gif') !== -1 || mediaItem.mediaLink.indexOf('svg') !== -1) && !mediaItem.trashed" ng-src="{{mediaItem.mediaLink}}?width=400&height=290&mode=crop" alt="{{mediaItem.name}}" />
             </a>
