@@ -1,0 +1,13 @@
+﻿@inherits UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<ContentModels.PersonContainer>>
+
+@{
+    const int CONTENT_AREA = 0;
+}
+
+<section class="page-section bg-light portfolio" id="portfolio">
+    <div class="container">
+        <div class="row justify-content-center">
+            @await Html.GetBlockGridItemAreaHtmlAsync(Model.Areas.ElementAt(CONTENT_AREA))
+        </div>
+    </div>
+</section>

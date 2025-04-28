@@ -1,0 +1,24 @@
+﻿Bör kunna tas bort
+
+@* @inherits UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<ContentModels.ContactItemsInfo>>
+
+@if (Model.Content?.Info?.Count > 0)
+{
+    foreach (var item in Model.Content.Info)
+    {
+        var content = item.Content as ContentModels.ContactItemInfo;
+
+        if (content != null && !string.IsNullOrWhiteSpace(content.Text) && content.Icon != null)
+        {
+            var iconKey = content.Icon.Key.ToString("N");
+
+            <div class="d-flex align-items-center mb-2">
+                <div class="me-2" style="width: 20px; height: 20px;">
+                    <our-svg media-item="content.Icon" class="svg-inline--fa fa-fw"></our-svg>
+                </div>
+                <span class="fs-6">@content.Text</span>
+            </div>
+        }
+    }
+}
+ *@

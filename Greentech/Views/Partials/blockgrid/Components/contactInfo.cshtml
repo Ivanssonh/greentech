@@ -1,0 +1,87 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<ContentModels.ContactInfo>>
+
+<div class="col-md-4 mb-2 d-flex justify-content-center">
+    <div class="person-block card border-0 shadow-sm h-100">
+        <div class="card-body text-center">
+            @* Profile Image *@
+            @if (Model.Content.Personimage != null)
+            {
+                <img src="@Model.Content.Personimage.Url()"
+                     class="rounded-circle mb-3 person-image"
+                     alt="@Model.Content.Personname">
+            }
+
+            @* Name & Role *@
+            <h3 class="h5 mb-1">@Model.Content.Personname</h3>
+            @if (!string.IsNullOrWhiteSpace(Model.Content.Personrole))
+            {
+                <p class="text-muted mb-3">@Model.Content.Personrole</p>
+            }
+
+            @* Contact Items *@
+            <div class="contact-items mt-auto">
+                @if (Model.Content.ContactDetails != null)
+                {
+                    foreach (var contactItem in Model.Content.ContactDetails)
+                    {
+                        var contact = contactItem.Content as ContentModels.ContactItemInfo; // Kasta om till rätt typ
+
+                        if (contact != null && !string.IsNullOrWhiteSpace(contact.Text) && contact.Icon != null)
+                        {
+                            var iconKey = contact.Icon.Key.ToString("N");
+
+                            <div class="contact-item d-flex align-items-center mb-2 justify-content-start"> <!-- Håll ihop ikon och text i samma div -->
+                                <div class="contact-icon me-2" style="width: 20px; height: 20px;">
+                                    <our-svg media-item="contact.Icon" class="svg-inline--fa fa-fw"></our-svg>
+                                </div>
+                                <span class="fs-6">@contact.Text</span> <!-- Texten som ska vara vänsterjusterad -->
+                            </div>
+                        }
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .person-image {
+        width: 100px; /* Mindre bild */
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .contact-items {
+        display: flex;
+        flex-direction: column; /* Vertikal listning av kontaktitems */
+    }
+
+    .contact-item {
+        font-size: 18px;
+        margin-bottom: 8px; /* Mindre avstånd mellan kontaktitems */
+    }
+
+    .contact-item i {
+        margin-right: 10px;
+    }
+
+    .contact-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .person-block {
+        width: 100%;
+        max-width: 300px; /* Maximal bredd på kortet */
+        margin: 0 auto; /* Centrerar kortet */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    .col-md-4 {
+        margin-bottom: 10px; /* Justera avståndet mellan korten */
+    }
+</style>
