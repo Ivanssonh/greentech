@@ -1,6 +1,9 @@
 ﻿@inherits UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<ContentModels.ImageLink>>
 
 @{
+    @section styles{
+
+    }
     if (Model?.Content?.Image == null) return;
 }
 
@@ -11,12 +14,9 @@
     </div>
 
     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal-@Model.Content.Key">
-        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-            <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-            </div>
+        <div class="d-flex align-items-center justify-content-center h-100 w-100">
         </div>
-        <img class="img-fluid w-100 h-100 lazyload"
+        <img class="portfolio-image img-fluid w-100 h-100 lazyload"
              data-srcset="@Url.GetSrcSetUrls(Model.Content.Image, 400, 290)"
              sizes="auto"
              src="@Model.Content.Image.GetCropUrl(40, 29)"

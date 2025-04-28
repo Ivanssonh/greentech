@@ -1,6 +1,6 @@
 ﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<ContentModels.ContactInfo>>
 
-<div class="col-md-4 mb-2 d-flex justify-content-center">
+<div class="d-flex">
     <div class="person-block card border-0 shadow-sm h-100">
         <div class="card-body text-center">
             @* Profile Image *@
@@ -44,44 +44,3 @@
     </div>
 </div>
 
-<style>
-    .person-image {
-        width: 100px; /* Mindre bild */
-        height: 100px;
-        object-fit: cover;
-    }
-
-    .contact-items {
-        display: flex;
-        flex-direction: column; /* Vertikal listning av kontaktitems */
-    }
-
-    .contact-item {
-        font-size: 18px;
-        margin-bottom: 8px; /* Mindre avstånd mellan kontaktitems */
-    }
-
-    .contact-item i {
-        margin-right: 10px;
-    }
-
-    .contact-icon {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .person-block {
-        width: 100%;
-        max-width: 300px; /* Maximal bredd på kortet */
-        margin: 0 auto; /* Centrerar kortet */
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 15px;
-    }
-
-    .col-md-4 {
-        margin-bottom: 10px; /* Justera avståndet mellan korten */
-    }
-</style>

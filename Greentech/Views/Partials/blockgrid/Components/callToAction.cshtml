@@ -12,7 +12,7 @@
 }
 
 <!-- CTA Section -->
-<section class="page-section bg-secondary text-white mb-0" id="about">
+<section class="page-section bg-gradient bg-success text-white mb-0" id="about">
     <div class="container">
         @if (image == null)
         {
@@ -68,7 +68,7 @@
                 {
                     <!-- Image Left -->
                     <div class="col-lg-6 mb-4 mb-lg-0">
-                        <img class="img-fluid w-100 h-100 lazyload rounded"
+                        <img class="img-fluid w-75 h-75 lazyload rounded"
                              data-srcset="@Url.GetSrcSetUrls(Model.Content.Image, 400, 290)"
                              src="@Model.Content.Image.GetCropUrl(40,29)"
                              alt="@Model.Content.Image.GetAltText()"
@@ -93,7 +93,7 @@
                 {
                     <!-- Image Right -->
                     <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
-                        <img class="img-fluid w-100 h-100 lazyload rounded"
+                        <img class="img-fluid w-75 h-75 lazyload rounded"
                              data-srcset="@Url.GetSrcSetUrls(Model.Content.Image, 400, 290)"
                              src="@Model.Content.Image.GetCropUrl(40,29)"
                              alt="@Model.Content.Image.GetAltText()"

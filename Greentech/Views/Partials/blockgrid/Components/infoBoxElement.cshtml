@@ -1,17 +1,17 @@
 ﻿@inherits UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<ContentModels.InfoBoxElement>>
 
-<li class="list-group-item text-black p-1 mb-1">
+<li class="list-group-item list-items">
     <div>
-        <h5 class="mb-0">@Model.Content.Title</h5> <!-- Uppdaterad till h5 för rubrik -->
+        <h5 class="mb-0">@Model.Content.Title</h5>
     </div>
-    <div class="d-flex align-items-center gap-0">
+    <div class="list-item-text">
         @if (Model.Content.Icon != null)
         {
-            <div class="flex-shrink-0" style="font-size: 1rem;">
+            <div class="me-2" style="font-size: 1rem;">
                 <our-svg media-item="@Model.Content.Icon" class="svg-inline--fa"></our-svg>
             </div>
         }
-        <div class="flex-grow-1 text-start ms-1">
+        <div class="list-item-text">
             <p>@Model.Content.Infotext</p>
         </div>
     </div>
