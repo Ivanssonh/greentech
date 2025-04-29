@@ -11115,3 +11115,18 @@ a.btn:hover .icon-link {
     justify-content:center;
     text-align: left;
 }
+
+
+
+/* Initial stil för divider – kort */
+.divider-animate {
+    width: 0;
+    height: 2px; /* Du kan justera tjockleken på strecken här */
+    background-color: darkgray; /* Justera färgen på strecken */
+    transition: width 0.6s ease;
+}
+
+    /* När dividern kommer in i vyn, växer bredden */
+    .divider-animate.animate-divider {
+        width: 400px;
+    }

@@ -18,7 +18,7 @@ using Umbraco.Extensions;
 
 namespace Umbraco.Cms.Web.Common.PublishedModels
 {
-	/// <summary>Image Links</summary>
+	/// <summary>Image container</summary>
 	[PublishedModel("imageLinks")]
 	public partial class ImageLinks : PublishedElementModel
 	{

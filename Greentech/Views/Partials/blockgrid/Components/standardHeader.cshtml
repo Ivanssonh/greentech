@@ -26,8 +26,20 @@
 
                     @if (!string.IsNullOrWhiteSpace(Model.Content.Subtitle))
                     {
-                        <div class="hero-subtitle-box bg-dark bg-opacity-25 p-3 rounded-3">
+                        <div class="hero-subtitle-box bg-dark bg-opacity-25 p-3 rounded-3 mb-3">
                             <p class="lead mb-0 d-flex">@Model.Content.Subtitle</p>
+                        </div>
+                    }
+
+                    @if (Model.Content.IconTitle is not null && Model.Content.Icon is not null && Model.Content.Link != null)
+                    {
+                        <div class="mt-3">
+                            <a class="btn btn-lg btn-dark me-2" href="@Model.Content.Link.Url" target="@Model.Content.Link.Target">
+                                <span class="icon-link me-2">
+                                    <our-svg media-item="Model.Content.Icon" class="svg-inline--fa fa-fw text-white"></our-svg>
+                                </span>
+                                @Model.Content.IconTitle
+                            </a>
                         </div>
                     }
                 </div>
