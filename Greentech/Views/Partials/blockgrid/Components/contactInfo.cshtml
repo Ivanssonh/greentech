@@ -24,17 +24,17 @@
                 {
                     foreach (var contactItem in Model.Content.ContactDetails)
                     {
-                        var contact = contactItem.Content as ContentModels.ContactItemInfo; // Kasta om till rätt typ
+                        var contact = contactItem.Content as ContentModels.ContactItemInfo;
 
                         if (contact != null && !string.IsNullOrWhiteSpace(contact.Text) && contact.Icon != null)
                         {
                             var iconKey = contact.Icon.Key.ToString("N");
 
-                            <div class="contact-item d-flex align-items-center mb-2 justify-content-start"> <!-- Håll ihop ikon och text i samma div -->
+                            <div class="contact-item d-flex align-items-center mb-2 justify-content-start">
                                 <div class="contact-icon me-2" style="width: 20px; height: 20px;">
                                     <our-svg media-item="contact.Icon" class="svg-inline--fa fa-fw"></our-svg>
                                 </div>
-                                <span class="fs-6">@contact.Text</span> <!-- Texten som ska vara vänsterjusterad -->
+                                <span class="fs-6">@contact.Text</span>
                             </div>
                         }
                     }

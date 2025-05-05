@@ -3,120 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Henri\\source\\repos\\greentech\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\components\\title.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\components\\title.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\wwwroot\\js\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\wwwroot\\js\\scripts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\mainnavigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\mainnavigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\components\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\components\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\components\\standardheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\components\\standardheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\components\\calltoaction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\components\\calltoaction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\components\\navigationgroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\components\\navigationgroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\components\\navigationarea.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\components\\navigationarea.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\components\\personcontainer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\components\\personcontainer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\components\\infoboxelement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\components\\infoboxelement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\components\\sociallinks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\components\\sociallinks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\components\\threecolumn.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\components\\threecolumn.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\metadata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\metadata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\components\\footercontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\components\\footercontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\components\\imagelink.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\components\\imagelink.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\components\\personcontainer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\components\\personcontainer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\components\\calltoaction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\components\\calltoaction.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\components\\imagelinks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\components\\imagelinks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\main.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\components\\footercontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\components\\footercontent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\components\\contactitemsinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\components\\contactitemsinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\components\\contactinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\components\\contactinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\contentpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\contentpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\searchpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\searchpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\area.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\area.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\areas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\areas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\items.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\items.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\partials\\blockgrid\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\partials\\blockgrid\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|c:\\users\\henri\\source\\repos\\greentech\\greentech\\views\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76CE6CF8-BE6D-405F-AC41-A4F52933C3AD}|Greentech\\Greentech.csproj|solutionrelative:greentech\\views\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 294,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 7,
               "Title": "HomePage.cshtml",
               "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\HomePage.cshtml",
               "RelativeDocumentMoniker": "Greentech\\Views\\HomePage.cshtml",
@@ -143,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 6,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Greentech\\Views\\_ViewImports.cshtml",
@@ -152,32 +68,72 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-17T08:24:55.087Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\footer.cshtml",
+              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\footer.cshtml",
+              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\footer.cshtml",
+              "RelativeToolTip": "Greentech\\Views\\Partials\\footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T12:06:28.664Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "scripts.js",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\wwwroot\\js\\scripts.js",
-              "RelativeDocumentMoniker": "Greentech\\wwwroot\\js\\scripts.js",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\wwwroot\\js\\scripts.js",
-              "RelativeToolTip": "Greentech\\wwwroot\\js\\scripts.js",
-              "ViewState": "AgIAABkAAAAAAAAAAAA3wEIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-29T09:37:32.782Z",
+              "Title": "footerContent.cshtml",
+              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\footerContent.cshtml",
+              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\footerContent.cshtml",
+              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\footerContent.cshtml",
+              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\footerContent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T12:03:02.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\wwwroot\\css\\styles.css",
-              "RelativeDocumentMoniker": "Greentech\\wwwroot\\css\\styles.css",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\wwwroot\\css\\styles.css",
-              "RelativeToolTip": "Greentech\\wwwroot\\css\\styles.css",
-              "ViewState": "AgIAAF4rAAAAAAAAAAA2wJ8rAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-29T09:35:01.231Z",
+              "Title": "threeColumn.cshtml",
+              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\threeColumn.cshtml",
+              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\threeColumn.cshtml",
+              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\threeColumn.cshtml",
+              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\threeColumn.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T12:02:41.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "personContainer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\personContainer.cshtml",
+              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\personContainer.cshtml",
+              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\personContainer.cshtml",
+              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\personContainer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T09:59:16.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "imageLinks.cshtml",
+              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\imageLinks.cshtml",
+              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\imageLinks.cshtml",
+              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\imageLinks.cshtml",
+              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\imageLinks.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T09:56:01.071Z",
               "EditorCaption": ""
             },
             {
@@ -195,315 +151,25 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "form.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\form.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\form.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\form.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\form.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T06:36:09.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "mainNavigation.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\mainNavigation.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\mainNavigation.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\mainNavigation.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\mainNavigation.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T08:06:12.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "navigationArea.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\navigationArea.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\navigationArea.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\navigationArea.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\navigationArea.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T08:13:24.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "navigationGroup.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\navigationGroup.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\navigationGroup.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\navigationGroup.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\navigationGroup.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T08:13:27.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "standardHeader.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\standardHeader.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\standardHeader.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\standardHeader.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\standardHeader.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T10:26:32.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "personContainer.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\personContainer.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\personContainer.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\personContainer.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\personContainer.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T06:48:45.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "infoBoxElement.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\infoBoxElement.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\infoBoxElement.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\infoBoxElement.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\infoBoxElement.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T06:05:42.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "imageLinks.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\imageLinks.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\imageLinks.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\imageLinks.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\imageLinks.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T11:37:27.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "title.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\title.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\title.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\title.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\title.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T11:43:31.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "callToAction.cshtml",
               "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\callToAction.cshtml",
               "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\callToAction.cshtml",
               "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\callToAction.cshtml",
               "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\callToAction.cshtml",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAIwAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-28T09:56:18.172Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "threeColumn.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\threeColumn.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\threeColumn.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\threeColumn.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\threeColumn.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T06:36:00.775Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "socialLinks.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\socialLinks.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\socialLinks.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\socialLinks.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\socialLinks.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T06:09:52.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "metaData.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\metaData.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\metaData.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\metaData.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\metaData.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T11:47:25.328Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Main.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Main.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Main.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Main.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Main.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T08:06:29.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "footer.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\footer.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\footer.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\footer.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\footer.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T07:25:16.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "imageLink.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\imageLink.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\imageLink.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\imageLink.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\imageLink.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T09:21:16.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "footerContent.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\footerContent.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\footerContent.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\footerContent.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\footerContent.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T07:24:59.002Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "contactItemsInfo.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\contactItemsInfo.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\contactItemsInfo.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\contactItemsInfo.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\contactItemsInfo.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T06:08:23.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "contactInfo.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\contactInfo.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\Components\\contactInfo.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\Components\\contactInfo.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\Components\\contactInfo.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T06:49:03.369Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ContentPage.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\ContentPage.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\ContentPage.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\ContentPage.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\ContentPage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T08:22:09.38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "SearchPage.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\SearchPage.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\SearchPage.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\SearchPage.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\SearchPage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T08:35:40.905Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "area.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\area.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\area.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\area.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\area.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T07:25:13.589Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "areas.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\areas.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\areas.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\areas.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\areas.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T07:25:12.816Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "items.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\items.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\items.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\items.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\items.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T07:25:10.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "default.cshtml",
-              "DocumentMoniker": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\default.cshtml",
-              "RelativeDocumentMoniker": "Greentech\\Views\\Partials\\blockgrid\\default.cshtml",
-              "ToolTip": "C:\\Users\\Henri\\source\\repos\\greentech\\Greentech\\Views\\Partials\\blockgrid\\default.cshtml",
-              "RelativeToolTip": "Greentech\\Views\\Partials\\blockgrid\\default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-28T07:25:09.848Z"
             }
           ]
         }

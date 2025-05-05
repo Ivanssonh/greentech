@@ -6,13 +6,17 @@
     const int CONTENT_AREA = 1;
     const int LINK_AREA = 2;
 
-    // Get the image position setting (default to "left" if not set)
-    var imagePosition = Model.Content.Value<string>("picturePlacement", fallback: Fallback.ToDefaultValue, defaultValue: "right");
+    var imagePosition = Model.Content.Value<string>("picturePlacement", fallback: Fallback.ToDefaultValue, defaultValue: "image-right");
     var image = Model.Content.Value<MediaWithCrops>("image");
+    var bgColor = Model.Content.BackgroundColor;
+    var textColor = Model.Content.TextColor != null ? "text-" + Model.Content.TextColor.Label.ToLower() : "text-secondary";
+    var bgstyle = $"background-color: #{bgColor}; ";
+
+
 }
 
 <!-- CTA Section -->
-<section class="page-section bg-gradient bg-success text-white mb-0" id="about">
+<section class="page-section @textColor mb-0" style="@bgstyle" id="about">
     <div class="container">
         @if (image == null)
         {
@@ -64,7 +68,7 @@
 
             <!-- Image & Content (50/50 Split Below Title) -->
             <div class="row align-items-center">
-                @if (imagePosition == "left")
+                @if (imagePosition == "image-left")
                 {
                     <!-- Image Left -->
                     <div class="col-lg-6 mb-4 mb-lg-0">

@@ -3,8 +3,11 @@
 @{
     var siteSettings = Model.GetSiteSettings();
     if (siteSettings?.FooterContent is null) return;
+
+    var bgColor = siteSettings.BackgroundColor;
+    var bgstyle = $"background-color: #{bgColor}; ";
 }
-<footer class="footer text-center">
+<footer class="footer text-center" style="@bgstyle">
     <div class="container">
         <div class="row">
             @await Html.GetBlockGridItemsHtmlAsync(siteSettings.FooterContent)

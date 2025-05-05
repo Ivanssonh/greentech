@@ -3,9 +3,13 @@
 @{
     const int TITLE_AREA = 0;
     const int CONTENT_AREA = 1;
+
+    var bgColor = Model.Content.BackgroundColor;
+    var textColor = Model.Content.TextColor != null ? "text-" + Model.Content.TextColor.Label.ToLower() : "text-secondary";
+    var bgstyle = $"background-color: #{bgColor}; ";
 }
 
-<section class="page-section portfolio" id="portfolio">
+<section class="page-section portfolio @textColor" id="portfolio" style="@bgstyle">
     <div class="container">
         @await Html.GetBlockGridItemAreaHtmlAsync(Model.Areas.ElementAt(TITLE_AREA))
         <!-- Portfolio Grid Items-->
