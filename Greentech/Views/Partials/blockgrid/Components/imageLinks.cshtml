@@ -12,7 +12,6 @@
 <section class="page-section portfolio @textColor" id="portfolio" style="@bgstyle">
     <div class="container">
         @await Html.GetBlockGridItemAreaHtmlAsync(Model.Areas.ElementAt(TITLE_AREA))
-        <!-- Portfolio Grid Items-->
         <div class="row justify-content-center">
             @await Html.GetBlockGridItemAreaHtmlAsync(Model.Areas.ElementAt(CONTENT_AREA))
         </div>

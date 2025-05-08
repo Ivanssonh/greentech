@@ -43,7 +43,7 @@ public class ContactSurfaceController : SurfaceController
 
         try
         {
-            var subject = string.Format("Enquiry from: {0} - {1}", model.Name, model.Email);
+            var subject = string.Format("Formulär - Greentech: {0} - {1}", model.Name, model.Email);
             EmailMessage message = new(_config?.EmailSettings?.From
                 , _config?.EmailSettings?.To, subject, model.Message, false);
             await _emailSender.SendAsync(message, emailType: "Contact");
@@ -56,6 +56,8 @@ public class ContactSurfaceController : SurfaceController
             TempData["ContactSuccess"] = false;
         }
 
-        return RedirectToCurrentUmbracoPage();
+        var currentUrl = UmbracoContext.PublishedRequest?.Uri?.PathAndQuery ?? "/";
+        return Redirect(currentUrl + "#form");
+
     }
 }

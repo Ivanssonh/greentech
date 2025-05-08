@@ -15,12 +15,10 @@
 
 }
 
-<!-- CTA Section -->
 <section class="page-section @textColor mb-0" style="@bgstyle" id="about">
     <div class="container">
         @if (image == null)
         {
-            <!-- Original layout when no image is selected -->
             <div class="text-white">
                 @await Html.GetBlockGridItemAreaHtmlAsync(Model.Areas.ElementAt(TITLE_AREA))
             </div>
@@ -61,16 +59,13 @@
         }
         else
         {
-            <!-- Title (Full Width Above) -->
             <div class="col-12 text-white mb-4">
                 @await Html.GetBlockGridItemAreaHtmlAsync(Model.Areas.ElementAt(TITLE_AREA))
             </div>
 
-            <!-- Image & Content (50/50 Split Below Title) -->
             <div class="row align-items-center">
                 @if (imagePosition == "image-left")
                 {
-                    <!-- Image Left -->
                     <div class="col-lg-6 mb-4 mb-lg-0">
                         <img class="img-fluid w-75 h-75 lazyload rounded"
                              data-srcset="@Url.GetSrcSetUrls(Model.Content.Image, 400, 290)"
@@ -95,7 +90,6 @@
                 }
                 else
                 {
-                    <!-- Image Right -->
                     <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
                         <img class="img-fluid w-75 h-75 lazyload rounded"
                              data-srcset="@Url.GetSrcSetUrls(Model.Content.Image, 400, 290)"
@@ -120,8 +114,6 @@
                 }
             </div>
         }
-
-        <!-- Link Area (same for both layouts) -->
         @{
             var linkArea = Model.Areas.ElementAt(LINK_AREA);
         }

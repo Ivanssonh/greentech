@@ -12,11 +12,11 @@
         <div class="col-12 text-center">
             @if (success)
             {
-                <p>@Umbraco.GetDictionaryValueOrDefault("ContactForm.SuccessMessage", "Thank you for your email. We will be in touch shortly.")</p>
+                <p>@Umbraco.GetDictionaryValueOrDefault("ContactForm.SuccessMessage", "Tack för ditt mejl. Vi återkommer snarast möjligt!")</p>
             }
             else
             {
-                <p>@Umbraco.GetDictionaryValueOrDefault("ContactForm.ErrorMessage", "There was a problem when submitting the form. Please try again later.")</p>
+                <p>@Umbraco.GetDictionaryValueOrDefault("ContactForm.ErrorMessage", "Något blev fel, försök igen.")</p>
             }
         </div>
     </div>
@@ -25,25 +25,21 @@ else
 {
     using (Html.BeginUmbracoForm<ContactSurfaceController>("Submit", FormMethod.Post, new { @class = "text-left", role = "form" }))
     {
-        <!-- Name input-->
         <div class="form-floating mb-3">
             <input asp-for="@Model.Name" class="form-control" id="name" type="text" placeholder="Fullständigt namn" aria-label="Name" />
             <label asp-for="@Model.Name"></label>
             <span asp-validation-for="@Model.Name" class="text-danger"></span>
         </div>
-        <!-- Email address input-->
         <div class="form-floating mb-3">
             <input asp-for="@Model.Email" class="form-control" id="name" type="text" placeholder="E-post adress" aria-label="Email" />
             <label asp-for="@Model.Email"></label>
             <span asp-validation-for="@Model.Email" class="text-danger"></span>
         </div>
-        <!-- Phone number input-->
         <div class="form-floating mb-3">
             <input asp-for="@Model.Phone" class="form-control" id="name" type="text" placeholder="Telefonnummer" aria-label="Phone" />
             <label asp-for="@Model.Phone"></label>
             <span asp-validation-for="@Model.Phone" class="text-danger"></span>
         </div>
-        <!-- Message input-->
         <div class="form-floating mb-3">
             <textarea asp-for="@Model.Message" class="form-control" id="message" placeholder="Meddelande" style="height: 150px;"></textarea>
             <label asp-for="@Model.Message"></label>

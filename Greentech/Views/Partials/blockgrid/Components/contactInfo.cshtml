@@ -3,7 +3,6 @@
 <div class="d-flex">
     <div class="person-block card border-0 shadow-sm h-100">
         <div class="card-body text-center">
-            @* Profile Image *@
             @if (Model.Content.Personimage != null)
             {
                 <img src="@Model.Content.Personimage.Url()"
@@ -11,14 +10,12 @@
                      alt="@Model.Content.Personname">
             }
 
-            @* Name & Role *@
             <h3 class="h5 mb-1">@Model.Content.Personname</h3>
             @if (!string.IsNullOrWhiteSpace(Model.Content.Personrole))
             {
                 <p class="text-muted mb-3">@Model.Content.Personrole</p>
             }
 
-            @* Contact Items *@
             <div class="contact-items mt-auto">
                 @if (Model.Content.ContactDetails != null)
                 {

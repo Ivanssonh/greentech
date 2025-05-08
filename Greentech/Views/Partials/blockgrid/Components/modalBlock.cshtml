@@ -1,6 +1,5 @@
 ﻿@inherits UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<ContentModels.ModalBlock>>
 
-<!-- Modal -->
 <div class="portfolio-modal modal fade" id="portfolioModal-@Model.Content.Key" tabindex="-1" aria-labelledby="portfolioModalLabel-@Model.Content.Key" aria-hidden="true">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
@@ -11,16 +10,12 @@
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
-                            <!-- Modal Title-->
                             <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">@Model.Content.Title</h2>
-                            <!-- Divider-->
                             <div class="divider-custom">
                                 <div class="divider-custom-line"></div>
                                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                 <div class="divider-custom-line"></div>
                             </div>
-                            <!-- Modal Image-->
-                            <!-- Modal Text-->
                             <p class="mb-4">@Model.Content.Text</p>
                             </a>
                             <button class="btn btn-secondary mt-3" data-bs-dismiss="modal">
@@ -35,11 +30,3 @@
     </div>
 </div>
 
-@if(Model.Content.Link != null)
-                            // {
-                            //     <a class="btn btn-primary" href="@Model.Content.Modalimage" target="@Model.Content.Link.Target">
-    //         <i class="fas fa-external-link-alt me-1"></i>
-    //         @(Model.Content.Link.Name ?? "View Project")
-    //
-
-                            // }

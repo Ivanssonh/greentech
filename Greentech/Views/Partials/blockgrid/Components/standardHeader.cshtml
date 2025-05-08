@@ -14,10 +14,8 @@
 
 <header class="masthead text-white d-flex align-items-center" style="@headerStyle">
     <div class="container">
-        <!-- Content Box Container -->
         <div class="hero-box bg-white bg-opacity-10 backdrop-blur rounded-4 p-4 p-lg-5 border border-white border-opacity-25 shadow-lg">
             <div class="row align-items-center g-4">
-                <!-- Text Content -->
                 <div class="col-lg-6 text-start">
                     @if (!string.IsNullOrWhiteSpace(Model.Content.Title))
                     {
@@ -44,7 +42,6 @@
                     }
                 </div>
 
-                <!-- Image Content -->
                 <div class="col-lg-6">
                     @if (!string.IsNullOrWhiteSpace(foregroundImage))
                     {

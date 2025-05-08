@@ -13,14 +13,11 @@
     <link href="/css/styles.css" rel="stylesheet" asp-append-version="true"/>
 </head>
 <body id="page-top">
-    <!-- Navigation-->
     @await Html.PartialAsync("mainNavigation")
     @RenderBody()
-    <!-- Footer-->
    @await Html.PartialAsync("footer")
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
     <script src="/js/scripts.js" asp-append-version="true"></script>
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     <script src="/scripts/lazysizes.min.js" async=""></script>

@@ -8,7 +8,7 @@ namespace Greentech.Models.ViewModels
         [Display(Name = "Namn")]
         [Required(ErrorMessage ="Du måste ange ditt namn ")]
         public string? Name { get; set; }
-        [Display(Name = "E-post adress")]
+        [Display(Name = "E-postadress")]
         [EmailAddress(ErrorMessage ="You must enter a valid email address")]
         [Required(ErrorMessage = "Du måste ange en giltig e-postadress")]
         public string? Email { get; set; }
