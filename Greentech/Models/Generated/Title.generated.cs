@@ -64,5 +64,13 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("text")]
 		public virtual string Text => this.Value<string>(_publishedValueFallback, "text");
+
+		///<summary>
+		/// titleId: Enter a ID that you will connect with the nav.
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "13.8.0+a486d5d")]
+		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
+		[ImplementPropertyType("titleId")]
+		public virtual string TitleId => this.Value<string>(_publishedValueFallback, "titleId");
 	}
 }

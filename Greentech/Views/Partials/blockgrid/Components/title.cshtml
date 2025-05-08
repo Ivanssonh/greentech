@@ -5,11 +5,8 @@
     var dividerColorClass = Model.Content.Color != null && Model.Content.Color.Label == "White" ? "divider-light" : null;
 }
 
-<!-- Portfolio Section Heading-->
-<h2 class="page-section-heading text-center text-uppercase @(textColorClass) mb-0">@Model.Content.Text</h2>
-<!-- Icon Divider-->
-<div class="divider-custom @(dividerColorClass)">
-    <div class="divider-custom-line"></div>
-    <div class="divider-custom-icon"><i class="fas fa-fire"></i></div>
-    <div class="divider-custom-line"></div>
+<h2 class="page-section-heading text-center text-uppercase @(textColorClass) mb-0" id="@Model.Content.TitleId">@Model.Content.Text</h2>
+
+<div class="d-flex justify-content-center align-items-center my-4">
+    <div class="divider-animate"></div>
 </div>

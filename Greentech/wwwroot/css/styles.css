@@ -11053,3 +11053,83 @@ a.btn:hover .icon-link {
     fill: #000;
     transition: fill 0.15s ease-in-out;
 }
+
+/*image links / portfolio*/
+
+.portfolio-image {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    object-fit: cover;
+}
+
+.portfolio-image:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+}
+
+.portfolio-image:active {
+    transform: scale(1.05);
+}
+
+/*Person block*/
+.person-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.contact-items {
+    display: flex;
+    flex-direction: column; 
+}
+
+.contact-item {
+    font-size: 18px;
+    margin-bottom: 8px; 
+}
+
+    .contact-item i {
+        margin-right: 10px;
+    }
+
+.contact-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-block {
+    max-width: 300px; 
+}
+
+.person-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    justify-content:center;
+}
+
+/*Contact items*/
+
+.list-item-text{
+    display:flex;
+    justify-content:center;
+    text-align: left;
+}
+
+
+
+.divider-animate {
+    width: 0;
+    height: 2px;
+    background-color: darkgray; /* Justera färgen på strecken */
+    transition: width 2.1s ease;
+}
+
+    .divider-animate.animate-divider {
+        width: 400px;
+    }
+
+.card-body{
+    min-width:250px;
+    padding-top:2rem;
+}

@@ -52,3 +52,21 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const dividers = document.querySelectorAll(".divider-animate");
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("animate-divider");
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.1 
+    });
+
+    dividers.forEach(divider => observer.observe(divider));
+});
+

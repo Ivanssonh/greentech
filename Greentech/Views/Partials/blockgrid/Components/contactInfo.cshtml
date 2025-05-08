@@ -1,0 +1,43 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<ContentModels.ContactInfo>>
+
+<div class="d-flex">
+    <div class="person-block card border-0 shadow-sm h-100">
+        <div class="card-body text-center">
+            @if (Model.Content.Personimage != null)
+            {
+                <img src="@Model.Content.Personimage.Url()"
+                     class="rounded-circle mb-3 person-image"
+                     alt="@Model.Content.Personname">
+            }
+
+            <h3 class="h5 mb-1">@Model.Content.Personname</h3>
+            @if (!string.IsNullOrWhiteSpace(Model.Content.Personrole))
+            {
+                <p class="text-muted mb-3">@Model.Content.Personrole</p>
+            }
+
+            <div class="contact-items mt-auto">
+                @if (Model.Content.ContactDetails != null)
+                {
+                    foreach (var contactItem in Model.Content.ContactDetails)
+                    {
+                        var contact = contactItem.Content as ContentModels.ContactItemInfo;
+
+                        if (contact != null && !string.IsNullOrWhiteSpace(contact.Text) && contact.Icon != null)
+                        {
+                            var iconKey = contact.Icon.Key.ToString("N");
+
+                            <div class="contact-item d-flex align-items-center mb-2 justify-content-start">
+                                <div class="contact-icon me-2" style="width: 20px; height: 20px;">
+                                    <our-svg media-item="contact.Icon" class="svg-inline--fa fa-fw"></our-svg>
+                                </div>
+                                <span class="fs-6">@contact.Text</span>
+                            </div>
+                        }
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>
+

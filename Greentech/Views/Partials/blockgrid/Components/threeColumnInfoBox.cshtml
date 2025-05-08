@@ -1,0 +1,32 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem>
+
+@{
+    const int TITLE_AREA = 0;
+    const int CONTENT_AREA = 1;
+
+    if (Model == null || !Model.Areas?.Any() == true) { return; }
+}
+
+<section class="py-5 bg-light text-black">
+    <div class="container">
+        <div class="row justify-content-center">
+            @if (Model.Areas.ElementAtOrDefault(TITLE_AREA) != null)
+            {
+                <h2 class="text-center mb-4">
+                    @await Html.GetBlockGridItemAreaHtmlAsync(Model.Areas.ElementAt(TITLE_AREA))
+                </h2>
+            }
+            @foreach (var area in Model.Areas.Where((area, index) => index != TITLE_AREA))
+            {
+                if (area != null)
+                {
+                    <div class="col-12 col-md-4 text-center">
+                        <div class="h-100">
+                            @await Html.GetBlockGridItemAreaHtmlAsync(area)
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</section>

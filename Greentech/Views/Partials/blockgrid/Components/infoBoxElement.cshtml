@@ -1,0 +1,18 @@
+﻿@inherits UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<ContentModels.InfoBoxElement>>
+
+<li class="list-group-item list-items">
+    <div>
+        <h5 class="mb-0">@Model.Content.Title</h5>
+    </div>
+    <div class="list-item-text">
+        @if (Model.Content.Icon != null)
+        {
+            <div class="me-2" style="font-size: 1rem;">
+                <our-svg media-item="@Model.Content.Icon" class="svg-inline--fa"></our-svg>
+            </div>
+        }
+        <div class="list-item-text">
+            <p>@Model.Content.Infotext</p>
+        </div>
+    </div>
+</li>

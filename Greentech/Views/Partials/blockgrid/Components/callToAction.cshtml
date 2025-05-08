@@ -1,79 +1,140 @@
-﻿@inherits UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<ContentModels.CallToAction>>
+﻿@using Umbraco.Cms.Core.Models
+@inherits UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<ContentModels.CallToAction>>
 
 @{
     const int TITLE_AREA = 0;
     const int CONTENT_AREA = 1;
     const int LINK_AREA = 2;
+
+    var imagePosition = Model.Content.Value<string>("picturePlacement", fallback: Fallback.ToDefaultValue, defaultValue: "image-right");
+    var image = Model.Content.Value<MediaWithCrops>("image");
+    var bgColor = Model.Content.BackgroundColor;
+    var textColor = Model.Content.TextColor != null ? "text-" + Model.Content.TextColor.Label.ToLower() : "text-secondary";
+    var bgstyle = $"background-color: #{bgColor}; ";
+
+
 }
 
-<!-- About Section-->
-<section class="page-section bg-secondary text-white mb-0" id="about">
+<section class="page-section @textColor mb-0" style="@bgstyle" id="about">
     <div class="container">
-        <div class="text-white">
-            <!-- About Section Heading-->
-            @await Html.GetBlockGridItemAreaHtmlAsync(Model.Areas.ElementAt(TITLE_AREA))
-        </div>
-        <!-- About Section Content-->
-        <div class="row">
-            @{
-                var contentArea = Model.Areas.ElementAt(CONTENT_AREA);
-                if (contentArea != null && contentArea.Any())
-                {
-                    var classToApply = "";
-                    var itemCount = contentArea.Count;
-                    var i = 0;
-                    foreach (var item in contentArea)
+        @if (image == null)
+        {
+            <div class="text-white">
+                @await Html.GetBlockGridItemAreaHtmlAsync(Model.Areas.ElementAt(TITLE_AREA))
+            </div>
+            <div class="row">
+                @{
+                    var contentArea = Model.Areas.ElementAt(CONTENT_AREA);
+                    if (contentArea != null && contentArea.Any())
                     {
-                        if (itemCount > 1)
+                        var classToApply = "";
+                        var itemCount = contentArea.Count;
+                        var i = 0;
+                        foreach (var item in contentArea)
                         {
-                            if (itemCount > 1 && i % 2 == 1)
+                            if (itemCount > 1)
                             {
-                                classToApply = "me-auto";
+                                if (itemCount > 1 && i % 2 == 1)
+                                {
+                                    classToApply = "me-auto";
+                                }
+                                else
+                                {
+                                    classToApply = "ms-auto";
+                                }
                             }
                             else
                             {
-                                classToApply = "ms-auto";
+                                classToApply = "mx-auto";
                             }
-                        }
-                        else
-                        {
-                            classToApply = "mx-auto";
-                        }
 
-                        <div class="col-lg-@item.ColumnSpan @(classToApply)">
-                            @await Html.PartialAsync("blockgrid/Components/richText", item)
-                        </div>
-                        i++;
+                            <div class="col-lg-@item.ColumnSpan @(classToApply)">
+                                @await Html.PartialAsync("blockgrid/Components/richText", item)
+                            </div>
+                            i++;
+                        }
                     }
                 }
-            }
-        </div>
+            </div>
+        }
+        else
+        {
+            <div class="col-12 text-white mb-4">
+                @await Html.GetBlockGridItemAreaHtmlAsync(Model.Areas.ElementAt(TITLE_AREA))
+            </div>
 
+            <div class="row align-items-center">
+                @if (imagePosition == "image-left")
+                {
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <img class="img-fluid w-75 h-75 lazyload rounded"
+                             data-srcset="@Url.GetSrcSetUrls(Model.Content.Image, 400, 290)"
+                             src="@Model.Content.Image.GetCropUrl(40,29)"
+                             alt="@Model.Content.Image.GetAltText()"
+                             style="object-fit: cover;">
+                    </div>
+                    <div class="col-lg-6">
+                        @{
+                            var contentArea = Model.Areas.ElementAt(CONTENT_AREA);
+                            if (contentArea != null && contentArea.Any())
+                            {
+                                foreach (var item in contentArea)
+                                {
+                                    <div class="mb-4">
+                                        @await Html.PartialAsync("blockgrid/Components/richText", item)
+                                    </div>
+                                }
+                            }
+                        }
+                    </div>
+                }
+                else
+                {
+                    <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
+                        <img class="img-fluid w-75 h-75 lazyload rounded"
+                             data-srcset="@Url.GetSrcSetUrls(Model.Content.Image, 400, 290)"
+                             src="@Model.Content.Image.GetCropUrl(40,29)"
+                             alt="@Model.Content.Image.GetAltText()"
+                             style="object-fit: cover;">
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        @{
+                            var contentArea = Model.Areas.ElementAt(CONTENT_AREA);
+                            if (contentArea != null && contentArea.Any())
+                            {
+                                foreach (var item in contentArea)
+                                {
+                                    <div class="mb-4">
+                                        @await Html.PartialAsync("blockgrid/Components/richText", item)
+                                    </div>
+                                }
+                            }
+                        }
+                    </div>
+                }
+            </div>
+        }
         @{
             var linkArea = Model.Areas.ElementAt(LINK_AREA);
         }
 
-        @if(linkArea is not null && linkArea.Any())
+        @if (linkArea is not null && linkArea.Any())
         {
-            foreach(var item in linkArea)
-            {
-                var iconLink = item.Content as IconLink;
-                if(iconLink is not null)
+            <div class="text-center mt-4">
+                @foreach (var item in linkArea)
                 {
-                    <div class="text-center mt-4">
+                    var iconLink = item.Content as IconLink;
+                    if (iconLink is not null)
+                    {
                         <a class="btn btn-xl btn-outline-light" href="@iconLink.Link.Url" target="@iconLink.Link.Target">
-                            @* <i class="fas fa-download me-2"></i> *@
                             <span class="icon-link">
                                 <our-svg media-item="iconLink.Icon" class="svg-inline--fa fa-fw text-white"></our-svg>
                             </span>
-                            @iconLink.Link.Name
+                            @iconLink.Title
                         </a>
-                    </div>
+                    }
                 }
-            }
+            </div>
         }
-
-        <!-- About Section Button-->
-
     </div>
 </section>

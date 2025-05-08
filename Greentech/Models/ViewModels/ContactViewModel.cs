@@ -5,23 +5,22 @@ namespace Greentech.Models.ViewModels
 {
     public class ContactViewModel
     {
-        [Display(Name = "Full name")]
-        [Required(ErrorMessage ="You must enter your name ")]
+        [Display(Name = "Namn")]
+        [Required(ErrorMessage ="Du måste ange ditt namn ")]
         public string? Name { get; set; }
-        [Display(Name = "Email address")]
+        [Display(Name = "E-postadress")]
         [EmailAddress(ErrorMessage ="You must enter a valid email address")]
-        [Required(ErrorMessage = "You must enter your email adress ")]
+        [Required(ErrorMessage = "Du måste ange en giltig e-postadress")]
         public string? Email { get; set; }
-        [Display(Name = "Phone number")]
+        [Display(Name = "Telefonnummer")]
         public string? Phone { get; set; }
-        [Display(Name = "Message")]
-        [Required(ErrorMessage = "You must enter your message ")]
-
+        [Display(Name = "Meddelande")]
+        [Required(ErrorMessage = "Du måste ange meddelande ")]
 
         public string? Message { get; set; }
         [Display(Name = "Yes, I give permission to store and process my data ")]
-        [Required(ErrorMessage = "You must give concent to us storing your details before you send a message")]
-        [MustBeTrue(ErrorMessage = "You must give concent to us storing your details before you send a message")]
+        [Required(ErrorMessage = "Du måste godkänna vår Policy innan du kan skicka ett meddelande")]
+        [MustBeTrue(ErrorMessage = "Du måste godkänna vår Policy innan du kan skicka ett meddelande")]
         public bool Consent { get; set; }
     }
 }
