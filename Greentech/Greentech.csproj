@@ -17,6 +17,7 @@
   <ItemGroup>
     <PackageReference Include="Our.Umbraco.Slimsy" Version="5.1.2" />
     <PackageReference Include="Our.Umbraco.Taghelpers" Version="1.2.0" />
+    <PackageReference Include="Skybrud.Umbraco.Redirects" Version="13.0.8" />
     <PackageReference Include="Umbraco.Cms" Version="13.8.0" />
   </ItemGroup>
 

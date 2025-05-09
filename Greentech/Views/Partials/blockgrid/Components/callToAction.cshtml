@@ -63,56 +63,59 @@
                 @await Html.GetBlockGridItemAreaHtmlAsync(Model.Areas.ElementAt(TITLE_AREA))
             </div>
 
-            <div class="row align-items-center">
-                @if (imagePosition == "image-left")
-                {
-                    <div class="col-lg-6 mb-4 mb-lg-0">
-                        <img class="img-fluid w-75 h-75 lazyload rounded"
-                             data-srcset="@Url.GetSrcSetUrls(Model.Content.Image, 400, 290)"
-                             src="@Model.Content.Image.GetCropUrl(40,29)"
-                             alt="@Model.Content.Image.GetAltText()"
-                             style="object-fit: cover;">
-                    </div>
-                    <div class="col-lg-6">
-                        @{
-                            var contentArea = Model.Areas.ElementAt(CONTENT_AREA);
-                            if (contentArea != null && contentArea.Any())
-                            {
-                                foreach (var item in contentArea)
+            <div class="container-fluid px-0">
+                <div class="row align-items-center gx-0">
+                    @if (imagePosition == "image-left")
+                    {
+                        <div class="col-lg-6">
+                            <img class="img-fluid w-100 h-auto lazyload rounded"
+                                 data-srcset="@Url.GetSrcSetUrls(Model.Content.Image, 400, 290)"
+                                 src="@Model.Content.Image.GetCropUrl(40,29)"
+                                 alt="@Model.Content.Image.GetAltText()"
+                                 style="object-fit: cover;">
+                        </div>
+                        <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
+                            @{
+                                var contentArea = Model.Areas.ElementAt(CONTENT_AREA);
+                                if (contentArea != null && contentArea.Any())
                                 {
-                                    <div class="mb-4">
-                                        @await Html.PartialAsync("blockgrid/Components/richText", item)
-                                    </div>
+                                    foreach (var item in contentArea)
+                                    {
+                                        <div class="mb-4">
+                                            @await Html.PartialAsync("blockgrid/Components/richText", item)
+                                        </div>
+                                    }
                                 }
                             }
-                        }
-                    </div>
-                }
-                else
-                {
-                    <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
-                        <img class="img-fluid w-75 h-75 lazyload rounded"
-                             data-srcset="@Url.GetSrcSetUrls(Model.Content.Image, 400, 290)"
-                             src="@Model.Content.Image.GetCropUrl(40,29)"
-                             alt="@Model.Content.Image.GetAltText()"
-                             style="object-fit: cover;">
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        @{
-                            var contentArea = Model.Areas.ElementAt(CONTENT_AREA);
-                            if (contentArea != null && contentArea.Any())
-                            {
-                                foreach (var item in contentArea)
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="col-lg-6 order-lg-2">
+                            <img class="img-fluid w-100 h-auto lazyload rounded"
+                                 data-srcset="@Url.GetSrcSetUrls(Model.Content.Image, 400, 290)"
+                                 src="@Model.Content.Image.GetCropUrl(40,29)"
+                                 alt="@Model.Content.Image.GetAltText()"
+                                 style="object-fit: cover;">
+                        </div>
+                        <div class="col-lg-6 order-lg-1 d-flex flex-column justify-content-center p-5">
+                            @{
+                                var contentArea = Model.Areas.ElementAt(CONTENT_AREA);
+                                if (contentArea != null && contentArea.Any())
                                 {
-                                    <div class="mb-4">
-                                        @await Html.PartialAsync("blockgrid/Components/richText", item)
-                                    </div>
+                                    foreach (var item in contentArea)
+                                    {
+                                        <div class="mb-4">
+                                            @await Html.PartialAsync("blockgrid/Components/richText", item)
+                                        </div>
+                                    }
                                 }
                             }
-                        }
-                    </div>
-                }
+                        </div>
+                    }
+                </div>
             </div>
+
         }
         @{
             var linkArea = Model.Areas.ElementAt(LINK_AREA);

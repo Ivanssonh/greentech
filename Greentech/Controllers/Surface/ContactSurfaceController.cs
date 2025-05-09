@@ -36,9 +36,11 @@ public class ContactSurfaceController : SurfaceController
 
     public async Task<IActionResult> Submit(ContactViewModel model)
     {
+        var currentUrl = UmbracoContext.PublishedRequest?.Uri?.PathAndQuery ?? "/";
+
         if (!ModelState.IsValid)
         {
-            return CurrentUmbracoPage();
+            return Redirect(currentUrl + "#form");
         }
 
         try
@@ -56,7 +58,6 @@ public class ContactSurfaceController : SurfaceController
             TempData["ContactSuccess"] = false;
         }
 
-        var currentUrl = UmbracoContext.PublishedRequest?.Uri?.PathAndQuery ?? "/";
         return Redirect(currentUrl + "#form");
 
     }
