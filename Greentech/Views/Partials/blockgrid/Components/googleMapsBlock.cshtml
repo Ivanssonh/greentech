@@ -1,0 +1,17 @@
+﻿@inherits UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<ContentModels.GoogleMapsBlock>>
+@{
+    var place = Model.Content.PlacePin;
+    var encodedPlace = System.Net.WebUtility.UrlEncode(place);
+    var apiKey = "AIzaSyAVKH3diHXI7CaZW9tEisZaZNtV7TncM-4";
+}
+
+<div class="google-map">
+    <iframe width="100%"
+            height="500px"
+            style="border:0;"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed/v1/place?key=@apiKey&q=@encodedPlace">
+    </iframe>
+</div>
