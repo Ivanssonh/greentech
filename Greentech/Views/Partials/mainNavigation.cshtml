@@ -9,22 +9,24 @@
 }
 <nav class="navbar navbar-expand-lg bg-gradient" id="mainNav" style="@bgstyle">
     <div class="container">
-        <a class="navbar-brand" href="#page-top">
-            @if (!string.IsNullOrWhiteSpace(siteSettings?.SiteLogo?.Url()))
-            {
-                <img src="@siteSettings.SiteLogo.Url()" alt="Företagslogga" class="w-25"/>
+        <div class="d-flex w-100 justify-content-between align-items-center">
+            <a class="navbar-brand m-0" href="#page-top">
+                @if (!string.IsNullOrWhiteSpace(siteSettings?.SiteLogo?.Url()))
+                {
+                    <img src="@siteSettings.SiteLogo.Url()" alt="Företagslogga" class="logo-navbar" />
+                }
+                else
+                {
+                    @siteSettings?.SiteName
+                }
+            </a>
+            <button class="navbar-toggler text-uppercase font-weight-bold text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Meny
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
 
-            }
-            else
-            {
-                @siteSettings?.SiteName
-            }
-        </a>
-        <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse id="navbarResponsive">
+        <div class="collapse navbar-collapse mt-3 mt-lg-0 custom-mobile-menu" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
                 @await Html.GetBlockGridHtmlAsync(siteSettings, "mainNavigation")
             </ul>

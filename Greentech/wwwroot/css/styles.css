@@ -11133,3 +11133,29 @@ a.btn:hover .icon-link {
     min-width:250px;
     padding-top:2rem;
 }
+.logo-navbar {
+    width: 25%;
+}
+
+/*Custom styling for mobile*/
+@media (max-width:860px){
+    .foreground-image-mobile{
+        display:none;
+    }
+    .logo-navbar{
+        width:50%;
+    }
+    #mainNav {
+        position: relative;
+        z-index: 1000;
+    }
+
+    .custom-mobile-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+}
