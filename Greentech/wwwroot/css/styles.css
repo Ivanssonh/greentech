@@ -11121,7 +11121,7 @@ a.btn:hover .icon-link {
 .divider-animate {
     width: 0;
     height: 2px;
-    background-color: darkgray; /* Justera färgen på strecken */
+    background-color: darkgray;
     transition: width 2.1s ease;
 }
 
@@ -11137,8 +11137,9 @@ a.btn:hover .icon-link {
     width: 25%;
 }
 
+}
 /*Custom styling for mobile*/
-@media (max-width:860px){
+@media (max-width:860px) {
     .foreground-image-mobile{
         display:none;
     }
@@ -11158,4 +11159,9 @@ a.btn:hover .icon-link {
         z-index: 999;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
+
+    .modal-image-mobile{
+        display:none;
+    }
+
 }

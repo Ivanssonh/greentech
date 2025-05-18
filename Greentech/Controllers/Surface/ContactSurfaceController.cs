@@ -40,7 +40,7 @@ public class ContactSurfaceController : SurfaceController
 
         if (!ModelState.IsValid)
         {
-            return Redirect(currentUrl + "#form");
+            return CurrentUmbracoPage();
         }
 
         try
