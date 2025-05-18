@@ -11121,7 +11121,7 @@ a.btn:hover .icon-link {
 .divider-animate {
     width: 0;
     height: 2px;
-    background-color: darkgray; /* Justera färgen på strecken */
+    background-color: darkgray;
     transition: width 2.1s ease;
 }
 
@@ -11132,4 +11132,36 @@ a.btn:hover .icon-link {
 .card-body{
     min-width:250px;
     padding-top:2rem;
+}
+.logo-navbar {
+    width: 25%;
+}
+
+}
+/*Custom styling for mobile*/
+@media (max-width:860px) {
+    .foreground-image-mobile{
+        display:none;
+    }
+    .logo-navbar{
+        width:50%;
+    }
+    #mainNav {
+        position: relative;
+        z-index: 1000;
+    }
+
+    .custom-mobile-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .modal-image-mobile{
+        display:none;
+    }
+
 }
